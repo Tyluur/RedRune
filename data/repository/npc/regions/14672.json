@@ -1,0 +1,137 @@
+[
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3664,
+      "y": 5129,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3655,
+      "y": 5127,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3651,
+      "y": 5134,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3671,
+      "y": 5131,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3682,
+      "y": 5134,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3683,
+      "y": 5143,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3660,
+      "y": 5130,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3679,
+      "y": 5151,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3684,
+      "y": 5129,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3676,
+      "y": 5156,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3654,
+      "y": 5139,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8833,
+    "tile": {
+      "x": 3680,
+      "y": 5146,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3668,
+      "y": 5148,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3663,
+      "y": 5145,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 8832,
+    "tile": {
+      "x": 3648,
+      "y": 5139,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  }
+]

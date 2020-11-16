@@ -1,0 +1,33 @@
+{
+  "drops": [],
+  "bonuses": {
+    "15464": [
+      157,
+      100,
+      100,
+      88,
+      4,
+      107,
+      198,
+      124,
+      178,
+      157
+    ]
+  },
+  "combatDefinitions": {
+    "15464": {
+      "hitpoints": 500,
+      "attackAnim": 16782,
+      "defenceAnim": 16779,
+      "deathAnim": 16778,
+      "attackDelay": 6,
+      "deathDelay": 1,
+      "respawnDelay": 60,
+      "maxHit": 210,
+      "attackStyle": 2,
+      "attackGfx": 3162,
+      "attackProjectile": 3164,
+      "aggressivenessType": 0
+    }
+  }
+}

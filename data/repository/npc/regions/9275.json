@@ -1,0 +1,56 @@
+[
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2328,
+      "y": 3794,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2324,
+      "y": 3791,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2319,
+      "y": 3791,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2317,
+      "y": 3794,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2323,
+      "y": 3799,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 5529,
+    "tile": {
+      "x": 2320,
+      "y": 3796,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  }
+]

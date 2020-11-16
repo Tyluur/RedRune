@@ -1,0 +1,58 @@
+5/31/17
++   Added destination events (interacting with nodes from a distance)
++   Added npc interaction packet decoding (attack/all right click options/examine)
++   Fixed npcs not being able to face players.
++   Updated our task systems to use @FunctionalInterface (using the apollo scheduled task system, the execute method wasn't up-to-date)
++   Created a banking system with support for tabs, insertion, swapping (100%)
+	-   This came with the addition of BitConfig packet sending (for tab ids)
+	-   This came with the support of inventory interfaces in the interface manager
++   Created a command module system very dynamic and easy to understand & implement
+	-   Package of the command will set the right required for it
+	-   Arguments (the command name [i.e ::npc or ::spawn] is set in the class
+	-   Getting the parameters of the command is seamless & validated properly
++   Added an interaction system (the npc faces you while you're interacting with it until somebody else interacts with it, unless you stop interacting with it)
++   Added a method to check the amount of components an interface will have (used to debug interfaces)
++   Added some newly identified outgoing packets
++   Added support for npc interaction to the interaction module
+
+MEDIA
+[img]http://i.imgur.com/ttC5yeI.gif[/img]
+[img]http://i.imgur.com/hvlOBMo.gif[/img]
+[img]http://i.imgur.com/oBIlxXv.png[/img]
+[img]http://i.imgur.com/KFXJzD2.png[/img]
+
+5/30/17
++   Added support for chatbox interfaces to the interface manager
++   Progressed further on our region management system
+	-   Region entry/exit will now update the region appropriately for npcs/players
+	-   Players' maps will be updated for several map regions, and these regions are saved.
++   Fixed some npc updating issues (npcs moving out of original location after we move/teleport around)
++   Shorted some code up to remove long chains/lines
++   Repackaged slightly to make sense of some package locations
++   Added a lot of npc spawns
+
+MEDIA
+[img]http://i.imgur.com/QXgTVxB.png[/img]
+
+5/29/17
++   Updated the interface management system to work better with all sorts of interface
++   Created an input system for lambda-supported client input
++   Added the notes tab
++   Added level setting from the skill tab using new input system.
++   Added option changing [accept aid etc]
++   Added more forms of events [walk/command]
+
+MEDIA
+[img]http://i.imgur.com/8QKB4nH.gif[/img]
+
+5/27/17
++   Designed a module system for handling all node interactions, as well as interface interactions, in one class.
++   Designed an interface management system for checking the interfaces the player has open
+	-   We can also hide/show a tab with a simple method call
++   Designed an event system for executing events procedurally, such as item equipping, object interaction, and more.
++   Completed item equipping and unequipping using the aforementioned systems.
++   Completed skill tab guides (with perfect submenus as well)
+
+[MEDIA]
+[img]http://i.imgur.com/Ulzjezt.gif[/img]
+[img]http://i.imgur.com/KAu2cuJ.gif[/img]

@@ -1,0 +1,71 @@
+{
+  "drops": [],
+  "bonuses": {
+    "15454": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "15506": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      10,
+      10,
+      200,
+      10
+    ],
+    "15507": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      200,
+      200,
+      200,
+      10,
+      200
+    ]
+  },
+  "combatDefinitions": {
+    "15454": {
+      "hitpoints": 2000,
+      "attackAnim": -1,
+      "defenceAnim": -1,
+      "deathAnim": -1,
+      "attackDelay": 5,
+      "deathDelay": 5,
+      "respawnDelay": 60,
+      "maxHit": 0,
+      "attackStyle": 3,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "15509": {
+      "hitpoints": 2000,
+      "attackAnim": -1,
+      "defenceAnim": -1,
+      "deathAnim": -1,
+      "attackDelay": 5,
+      "deathDelay": 5,
+      "respawnDelay": 60,
+      "maxHit": 0,
+      "attackStyle": 3,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  }
+}

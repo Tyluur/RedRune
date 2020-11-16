@@ -1,0 +1,34 @@
+{
+  "drops": [],
+  "bonuses": {
+    "5903": [
+      250,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      200,
+      200
+    ]
+  },
+  "combatDefinitions": {
+    "5903": {
+      "hitpoints": 2300,
+      "attackAnim": 6345,
+      "defenceAnim": 6346,
+      "deathAnim": 6347,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 240,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}

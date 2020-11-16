@@ -1,0 +1,56 @@
+[Wrappers/Systems]
++   Trade system
+
+[Necessities]
++   Stat restoration
+	-   Managed for antifire
+	-   Potion mixing
++   Finish dynamic regions
++   Barrows
+	-   [3549, 9695, 0] is the location of the chest
+	-   plane 3 is the location where the barrows brothers are
++   PvP Areas in world 2
+	-   Pvp armour drops
++   Appearance modification
+	-   Classes
+	-   Beard/gender/shoes/clothing
+
+[Punishments]
++   Once somebody has been punished, send the information over the network
+	-   PunishmentPacket [punisher, punished, type, duration]
+	-   When the packet has been received we will send a new one to all live worlds with same info
+	-   When the servers receive that info, only one of them should have that player online
+	-   Once the server with that player online receives the packet, it adds the punishment to the log, marks the player's file [if it's a ba
+
+[Unfinished]
++   Finish all melee special attacks
+	-   spear,scim,2h
+	-   Whip [vine too]
+	-   Statius warhammer
+	-   Vesta spear
+	-   Barrelchest anchor
++   Finish all range specials
+	-   Hand cannon
++   Magic Combat Spells
+	-   Regular Spellbook
+		-   Need to add alchemy spells
++   'You can't reach that' [stops interaction through walls]
++   Verify all connections are still live in the world and if they aren't [disconnected by bug or something, remove them [force remove after a minute if in combat]]
++   Teleport-other with closeby players [1 tile]
+	-   Interface 326
+	-   Can be done with one attribute
+	-   Example code from arios: https://paste.ee/p/trgn8
+
+[Data]
++	NPC examines
++	Object examines
+
+[Statistics]
++   Amount of players registered
++   Amount of players dead
++   Amount of npcs killed
++   Amount of times people logged in
++   Amount of times people logged out
++   Amount of times people talked [public/pm/friends]
++   Amount of time spent
+	-   Inactivity starts when we don't click/type for > a minute

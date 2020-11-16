@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    10,
+    10,
+    10,
+    -10,
+    8,
+    8,
+    8,
+    8,
+    -6,
+    12,
+    6,
+    0,
+    0,
+    0,
+    12,
+    0,
+    0,
+    0
+  ],
+  "examine": "The gauntlets of a martial master.",
+  "weight": 0.4
+}

@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    0,
+    -6,
+    -6,
+    -6,
+    6,
+    6,
+    6,
+    6,
+    6,
+    0,
+    6,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "examine": "A helm fit for any Fremennik ranger.",
+  "weight": 1.0
+}

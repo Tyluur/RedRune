@@ -1,0 +1,13 @@
+[OSRS]
++   Write information about osrs data to store in this so we can C&P to client devs
+
+[Misc]
++   Left click priority changing
+	-   Remember OSRS Client has:
+		'Player/NPC "Attack" options:'
+			1.  Depends on combat level [default]
+			2.  Always right click
+			3.  Left click where available
+			4.  Hidden
+
+[Interfaces]

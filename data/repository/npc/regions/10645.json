@@ -1,0 +1,173 @@
+[
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2680,
+      "y": 9544,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2670,
+      "y": 9545,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2676,
+      "y": 9550,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2661,
+      "y": 9555,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2659,
+      "y": 9546,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2682,
+      "y": 9591,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2675,
+      "y": 9592,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2656,
+      "y": 9576,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2647,
+      "y": 9588,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 112,
+    "tile": {
+      "x": 2641,
+      "y": 9544,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 1593,
+    "tile": {
+      "x": 2678,
+      "y": 9587,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 1593,
+    "tile": {
+      "x": 2642,
+      "y": 9577,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 1593,
+    "tile": {
+      "x": 2633,
+      "y": 9586,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 1593,
+    "tile": {
+      "x": 2629,
+      "y": 9549,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 7003,
+    "tile": {
+      "x": 2638,
+      "y": 9570,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 7003,
+    "tile": {
+      "x": 2644,
+      "y": 9566,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 7003,
+    "tile": {
+      "x": 2642,
+      "y": 9562,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 7003,
+    "tile": {
+      "x": 2638,
+      "y": 9559,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 7003,
+    "tile": {
+      "x": 2635,
+      "y": 9553,
+      "plane": 2
+    },
+    "direction": "NORTH"
+  }
+]

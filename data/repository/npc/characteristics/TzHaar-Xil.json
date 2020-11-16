@@ -1,0 +1,236 @@
+{
+  "drops": [
+    {
+      "itemId": 6522,
+      "minAmount": 9,
+      "maxAmount": 19,
+      "rate": 61.0
+    },
+    {
+      "itemId": 6523,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 54.0
+    },
+    {
+      "itemId": 6525,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 45.0
+    },
+    {
+      "itemId": 6524,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 47.0
+    },
+    {
+      "itemId": 6568,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 35.0
+    },
+    {
+      "itemId": 1623,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 61.0
+    },
+    {
+      "itemId": 1621,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 69.0
+    },
+    {
+      "itemId": 1619,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 58.0
+    },
+    {
+      "itemId": 1617,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 45.0
+    },
+    {
+      "itemId": 161,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 46.0
+    },
+    {
+      "itemId": 149,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 46.0
+    },
+    {
+      "itemId": 167,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 46.0
+    },
+    {
+      "itemId": 380,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 55.0
+    },
+    {
+      "itemId": 9194,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 72.0
+    },
+    {
+      "itemId": 7055,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 6.0
+    }
+  ],
+  "bonuses": {
+    "2605": [
+      100,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      70,
+      80
+    ],
+    "2606": [
+      100,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      70,
+      80
+    ],
+    "2607": [
+      100,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      70,
+      80
+    ],
+    "2608": [
+      100,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      70,
+      80
+    ],
+    "2609": [
+      100,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      70,
+      80
+    ]
+  },
+  "combatDefinitions": {
+    "2608": {
+      "hitpoints": 1200,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9291,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2609": {
+      "hitpoints": 1200,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9291,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2605": {
+      "hitpoints": 1200,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9291,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2606": {
+      "hitpoints": 1200,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9291,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2607": {
+      "hitpoints": 1200,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9291,
+      "attackDelay": 6,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12168,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 0.3
+    }
+  ]
+}

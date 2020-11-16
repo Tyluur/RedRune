@@ -1,0 +1,60 @@
+{
+  "drops": [],
+  "bonuses": {
+    "6871": [
+      65,
+      0,
+      0,
+      0,
+      0,
+      60,
+      0,
+      0,
+      40,
+      80
+    ],
+    "6872": [
+      65,
+      0,
+      0,
+      0,
+      0,
+      60,
+      0,
+      0,
+      40,
+      80
+    ]
+  },
+  "combatDefinitions": {
+    "6871": {
+      "hitpoints": 700,
+      "attackAnim": 7769,
+      "defenceAnim": 7771,
+      "deathAnim": 7770,
+      "attackDelay": 5,
+      "deathDelay": 3,
+      "respawnDelay": -1,
+      "maxHit": 50,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "6872": {
+      "hitpoints": 700,
+      "attackAnim": 7769,
+      "defenceAnim": 7771,
+      "deathAnim": 7770,
+      "attackDelay": 5,
+      "deathDelay": 3,
+      "respawnDelay": -1,
+      "maxHit": 50,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}

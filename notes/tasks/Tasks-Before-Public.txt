@@ -1,0 +1,38 @@
+# [Master Server Perfection] #
+1.  Login/Logout must be free from dupes and rollbacks [perhaps implement 30 seconds to login to the game from another world]
+
+[Friends Chat]
+-   Write about this after friends communication done
+
+# [EXCHANGE] #
+1.  Shops setup
+
+# [FORUM INTEGRATION]
+
+1.  Display names can be changed over the forums 31 days and will be 12 characters MAX. [DONOR ONLY]
+2.  Login password must be your forum password
+	-   Perhaps implement the Bcrypt hash checking to skip verifying passwords on each login attempt.
+3.  Account creation creates a forum account on the master server worker.
+	-   We should have a flag that notifies the player that their forum account was created for them on login during this process
+	-
+
+[Misc]
++	Barrows
++	Home area design
+	-   Add dicing area
++ 	Wilderness Targets
+	-   In the wilderness your potential will increase by 15% every minute
+		+   When it's at maximum you'll receive a target
+	-   If your target is in a fight you can pj them
+	-   Use the bounty hunter interface
+	-   If you kill your target you'll be legible for pvp armour rewards
++	PVM
+	-	Locations in wilderness with bosses maybe? [or t]
+	-	King Black Dragon
+	-	Corporeal Beast
+	-	PVP ARMOUR NPCS [or leave pvp armour to EP/BH/SHOPS (vote/donate?)]
+	-	
++	Minigames [dungeoneering wave based for chaotics/etc [convert to bm on death]]
+	-	Items untradeable
++	BOB not allowed in wildy
++	Fishing spots in wilderness

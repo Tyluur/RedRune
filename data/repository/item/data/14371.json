@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    0,
+    0,
+    0,
+    -30,
+    -10,
+    30,
+    30,
+    30,
+    -10,
+    15,
+    30,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "examine": "The sacred clay has transformed into a hard, metallic substance.",
+  "weight": 2.0
+}

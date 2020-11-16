@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    -5,
+    -5,
+    -5,
+    -5,
+    6,
+    6,
+    8,
+    10,
+    6,
+    6,
+    0,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    0
+  ],
+  "examine": "This helmet is worn by archers.",
+  "weight": 2.7
+}

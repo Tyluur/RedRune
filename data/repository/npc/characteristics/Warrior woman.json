@@ -1,0 +1,66 @@
+{
+  "drops": [
+    {
+      "itemId": 526,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    }
+  ],
+  "bonuses": {
+    "15": [
+      23,
+      0,
+      0,
+      0,
+      0,
+      24,
+      0,
+      0,
+      24,
+      24
+    ]
+  },
+  "combatDefinitions": {
+    "15": {
+      "hitpoints": 200,
+      "attackAnim": 6489,
+      "defenceAnim": 6488,
+      "deathAnim": 6490,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 30,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12158,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 0.3
+    },
+    {
+      "itemId": 12159,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 0.2
+    },
+    {
+      "itemId": 12160,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12163,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 0.05
+    }
+  ]
+}

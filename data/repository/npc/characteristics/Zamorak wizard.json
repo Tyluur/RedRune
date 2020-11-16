@@ -1,0 +1,124 @@
+{
+  "drops": [
+    {
+      "itemId": 526,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 1397,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 57.0
+    },
+    {
+      "itemId": 1399,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 58.0
+    },
+    {
+      "itemId": 1393,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 72.0
+    },
+    {
+      "itemId": 1395,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 68.0
+    },
+    {
+      "itemId": 1033,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 72.0
+    },
+    {
+      "itemId": 1033,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 59.0
+    },
+    {
+      "itemId": 556,
+      "minAmount": 60,
+      "maxAmount": 192,
+      "rate": 79.0
+    },
+    {
+      "itemId": 565,
+      "minAmount": 8,
+      "maxAmount": 8,
+      "rate": 70.0
+    },
+    {
+      "itemId": 564,
+      "minAmount": 25,
+      "maxAmount": 25,
+      "rate": 65.0
+    },
+    {
+      "itemId": 560,
+      "minAmount": 45,
+      "maxAmount": 45,
+      "rate": 60.0
+    },
+    {
+      "itemId": 557,
+      "minAmount": 79,
+      "maxAmount": 107,
+      "rate": 85.0
+    },
+    {
+      "itemId": 554,
+      "minAmount": 51,
+      "maxAmount": 189,
+      "rate": 97.0
+    },
+    {
+      "itemId": 563,
+      "minAmount": 9,
+      "maxAmount": 9,
+      "rate": 66.0
+    },
+    {
+      "itemId": 561,
+      "minAmount": 12,
+      "maxAmount": 28,
+      "rate": 61.0
+    },
+    {
+      "itemId": 555,
+      "minAmount": 86,
+      "maxAmount": 146,
+      "rate": 84.0
+    },
+    {
+      "itemId": 618,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 97.0
+    }
+  ],
+  "bonuses": {},
+  "combatDefinitions": {
+    "1007": {
+      "hitpoints": 1,
+      "attackAnim": -1,
+      "defenceAnim": -1,
+      "deathAnim": -1,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}

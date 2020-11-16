@@ -1,0 +1,5 @@
+If a new login request is sent [new session made] and the old one registered, you remain online.
+Player Rendering Bugs
+	Running on tiles that objects were removed sends a strange path to the client [server sided it paths correctly
+	http://i.imgur.com/kfHZOT7.gifv
+Lumbridge doesnt have xteas

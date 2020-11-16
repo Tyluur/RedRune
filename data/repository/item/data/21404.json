@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    -2,
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0
+  ],
+  "examine": "It can only be used in the clan battlefield.",
+  "weight": 1.3
+}

@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    0,
+    0,
+    0,
+    0,
+    -1,
+    4,
+    5,
+    3,
+    0,
+    4,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "examine": "This should make me harder to spot in polar areas.",
+  "weight": 0.2
+}

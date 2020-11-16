@@ -1,0 +1,177 @@
+{
+  "drops": [
+    {
+      "itemId": 532,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 10937,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    }
+  ],
+  "bonuses": {
+    "1521": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ],
+    "14032": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ],
+    "1522": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ],
+    "14033": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ],
+    "1523": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ],
+    "14034": [
+      150,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      60,
+      90
+    ]
+  },
+  "combatDefinitions": {
+    "1521": {
+      "hitpoints": 450,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 60,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "14032": {
+      "hitpoints": 450,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 60,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "1522": {
+      "hitpoints": 650,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 80,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "14033": {
+      "hitpoints": 650,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 80,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "1523": {
+      "hitpoints": 750,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 90,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "14034": {
+      "hitpoints": 750,
+      "attackAnim": 5989,
+      "defenceAnim": 5988,
+      "deathAnim": 5990,
+      "attackDelay": 4,
+      "deathDelay": 2,
+      "respawnDelay": 50,
+      "maxHit": 90,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}

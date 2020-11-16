@@ -1,0 +1,311 @@
+6/30/17 {
+	+   Fixed region bug [some secondary ones would never load]
+	+   Added dynamic support for 4 graphics at the same time [4 different masks] [for npcs too]
+	+   Fixed floor items [gif shown sped up a lot]
+	+	Updated projectiles for leeches a bit [slow don + angled like on rs]
+	+	Updated projectile for soulsplit a bit [slow down + angled like on rs]
+	+   Added floor item examine packet
+	+   Added floor item examining event
+	+   Added floor item usage packet
+	+   Added floor item usage event
+		-   I.e. lighting logs that are already lit
+	+   Stopped inventory items from being swapped when player is item interact locked [hopping ditch/burying bones]
+	+
+
+	[IMG]http://i.imgur.com/UfQ3XTB.gif[/IMG]
+	[IMG]http://i.imgur.com/jD5JbJu.png[/IMG]
+	[IMG]http://i.imgur.com/h8RB4he.gif[/IMG]
+}
+
+6/29/17 {
+	+   Added ice barrage
+		-   Freezes for 30 ticks
+		-   Unfreezeable for 6 ticks after your freeze is over
+		-   Accurate gfx for freezing and when your target is already frozen
+		-   Autocasting working
+	+   Added ice blitz [with the obvious implications]
+		-   Including the projectile
+	+   Added proper calculation of magic spells with delays [stacking works perfectly if ur rushing from tiles away]
+	+   Improved leeches significantly
+		-   Previously the leeches were applied when the hit landed, this isn't how it was in runescape [had to watch some videos]
+		-   I made them applied when the combat is ticked, and now the leech will overlap your combat animation [credits affliction for info]
+		-   Changed chat messages for leeches, they only send one message if you're maxed instead of flooding your chatbox with info.
+		-   Reduced leech amount from 5% to 1% per successful leech [saps too]
+	+   Added soulsplit
+		-   Correct timing for hit landing
+		-   Correct projectile
+		-   Correct graphics
+		-   Fixed soulsplit projectiles to land on time
+		-   Made it sent regardless of whether your hit lands or not.
+	+   Added prayer boosts into melee max hit calculation
+	+   Updated melee accuracy & defense combat calculations [with precision based on real runescape formulas (this info was calculated publicly)]
+	+   Updated range accuracy & defense combat calculations [with precision based on real runescape formulas (this info was calculated publicly)]
+		-   Even the combat style you're on has a small bonus on your defense calculation like on RS
+		-   Accuracy also takes into account your attack level boost from the base attack level requirement of the weapon you're wielding
+	+   Confirmed max hit calculations for all melee, range, and magic using accurate runescape calculations
+		-   Information if you're interested in javascript: https://pastebin.com/7LcSpvu4
+	+   Added special attack accuracy multiplier for several different weapon types, basing information from runescape's.
+	+   Added potions [only base potions at the moment]
+		-   Noted that in 2011 there was no combat speed after sipping a potion... however combat did stop.
+	+   Updated dharok max hit calculation to be accurate to runescape's
+		-   At exactly 1 lifepoint u can max a 1008 on a player[with the best combat bonuses with dharoks, turmoil, and super pots]
+	+   Updated 'roll' algorithm to be more realistic [we don't want to be able to hit 0-0 on mystics too often, etc....]
+	+   Made autocast spells reset when u equip a weapon
+	+   Stopped duplicate texts from being sent [so ur not spammed w/ 'mysterious force stops u....']
+
+	[IMG]http://i.imgur.com/aSlobmC.gif[/IMG]
+	[IMG]http://i.imgur.com/gfPKfmH.gif[/IMG]
+	[IMG]http://i.imgur.com/1sYUWDS.png[/IMG]
+	[IMG]http://i.imgur.com/qR4FENE.gif[/IMG]
+	[IMG]http://i.imgur.com/aYnyhlT.gif[/IMG]
+	[IMG]http://i.imgur.com/yKnDsQa.gif[/IMG]
+	[IMG]http://i.imgur.com/KK637sw.gif[/IMG]
+}
+
+6/27/17 {
+	+   Added entity freezing
+		-   Checks for frozen status in walking/following/node interaction [nodes mean objects/floor items/players/npcs]
+	+   Added spellbook swapping
+	+   Added a command to find items by their name [also by their options if you want]
+		-   ::itemn armadyl drop    ->  this will find all items that have 'armadyl' in their name
+			-   and that have 'drop' in their inventory options
+		-   Mainly used for admins+, but in beta testing this will be good for beta testers.
+	+   Added the destroy item interface [when you attempt to drop an item that's untradeable/destroyable/lended]
+	+   Added item definition checking for lended items [as well as changing their last definition server sided to 'discard' [not 'drop' like their regular parts]
+	+   Added interface closing event to inventory item slot swapping
+	+   Added more information to the ::commands interface, like what you should add after the command
+		-   Mainly for mod+ commands
+	+   Added all prayer drains and saps
+		-   With stat adjustment calculation in the tab according to the runescape data
+		-   Projectiles are accurately calculated as well.
+		-   Drain amount is used to calculate your attack bonuses too, so if its negative you'll have less accuracy, etc.
+		-   Added a restoration formula for the drain modifiers
+			-   Every 15 seconds, they will restore by 1% to their original 0 value.
+	+   Added ava's accumulator effect
+	+   Fixed a scheduled task bug that wouldn't allow tasks that had a speed > 1 to happen
+		-   Also removed 'immediate' task types -> these are never needed
+	+   Fixed auto retaliate - it now retaliates a tick after the hit lands, not combat starts ticking.
+	+   Added magic shortbow & magic longbow special attack with perfect projectiles & accuracy
+	+   Added ammo stacking on the floor instead of new floor items being created each time an arrow is shot
+
+	[IMG]http://i.imgur.com/9rdr0sY.gif[/IMG]
+	[IMG]http://i.imgur.com/vpV0PN6.png[/IMG]
+	[IMG]http://i.imgur.com/VPix1Hn.png[/IMG]
+	[IMG]http://i.imgur.com/JmjGSC9.gif[/IMG]
+	[IMG]http://i.imgur.com/fntTUdX.gif[/IMG]
+	[IMG]http://i.imgur.com/LPpCH6c.png[/IMG]
+}
+
+6/26/17 {
+	+   Added prayer bonus calculation to all combat calculators
+	+   Added weight per item and weight calculation for energy draining while running.
+	+   Added player resting via orbs
+		-   As well as the getting up animation
+	+   Added item weights to the stats popup in the equipment menu
+	+   Added protection prayer effects and deflection prayer effects
+		-   Different graphics for magic/ranged/melee
+
+	[IMG]http://i.imgur.com/4cNLYsD.png[/IMG]
+	[img]http://i.imgur.com/OVj7U8i.png[/img]
+	[IMG]http://i.imgur.com/Tc4NyzF.png[/IMG]
+	[IMG]http://i.imgur.com/fQyJeRD.gif[/IMG]
+}
+
+6/23/17 {
+	+   Added magic combat type
+		-   With a easy "plugin" system to add more spells
+		-   Magic accuracy/defense formulas appropriately done
+		-   Projectiles appropriately done for the 3 spells I tested the system with
+		-   Added spellbook sorting [saves]
+		-   Added defensive casting [saves]
+			-   Formula for experience received as well [not sure it's 100% accurate tho]
+		-   Added spell hiding/showing in spellbook via buttons [saves]
+		-   Added autocasting [saves]
+	+   Added granite maul instant special attack without clicking the target again
+	+   Added animation/gfx command for owner
+
+	[IMG]http://i.imgur.com/4FvHIxE.gif[/IMG]
+	[IMG]https://i.imgur.com/3N4P2iK.gif[/IMG]
+	[IMG]http://i.imgur.com/FhfOPMP.png[/IMG]
+	[IMG]http://i.imgur.com/taQZJjH.png[/IMG]
+}
+
+6/22/17 {
+	+   Added special attacks for melee combat
+		-   Instant special attacks handled as well
+		-   AGS/DDS/GMAUL added so far...
+	+   Fixed spamming in firemaking for cheap exp.
+	+   Fixed an issue with update masks that would slow down appearance rendering
+	+   Started on range combat
+		-   Support for all longbows & short bows
+		-   Updated projectile packet builder [thanks to Maxi on R-S with some accurate packet data]
+			-   Start distance offset addition + creator size addition
+		-   Projectiles have been perfected for the ready bows
+		-   Clipped and distance calculated
+		-   Timing for block emotes and hit appearance is calculated as well
+		-   Calculation for max hit, accuracy, and defense is fair as well
+		-   Support for dark bow, knives, darts, crystal bow, and regular crossbows
+
+	[IMG]http://i.imgur.com/1oHpL1r.gif[/IMG]
+	[IMG]http://i.imgur.com/g3h2FIX.gif[/IMG]
+	[IMG]http://i.imgur.com/0XIIe5m.gif[/IMG]
+	[IMG]http://i.imgur.com/ypLZ5ON.gif[/IMG]
+}
+
+6/21/17 {
+	+   Started on melee combat
+		-   Diagonal combat doesn't work
+		-   Tile collision finds the best tile to go to
+	+   Added combat style saving
+	+   Added auto retaliate saving
+	+   Updated player appearance to show the player's combat level with summoning addition
+	+   Fixed the bugged combat styles tab showing the wrong summoning level addition (S/O Walied)
+	+   Fixed some interaction bugs
+	+   Added critical damage algorithm (damage >= 90% = critical)
+	+   Added damage absorption based on armour bonuses
+	+   Added untradeable item repository
+
+	[IMG]http://i.imgur.com/s8y5VbR.png[/IMG]
+	[IMG]http://i.imgur.com/gkMERkW.png[/IMG]
+	[IMG]http://i.imgur.com/UAJ3enr.gif[/img]
+}
+
+6/20/17 {
+	+   Added player following with dancing
+	-   Support for never getting stuck behind objects
+	-   Players never trail by too many tiles either.
+	+   Updated the event management system for easy execution
+
+	[IMG]http://i.imgur.com/SacgqZ3.png[/img]
+	[IMG]http://i.imgur.com/clPDzak.png[/img]
+}
+
+6/16/17 {
++   Added hint icon outgoing packet
+	-   Support for sending the icon on entities [npc/players]
+	-   Support for sending the icon on tiles
+	-   Support for sending different types of icons
+	-   Support for sending icons on the minimap from a distance
+	-   Refactored the client incoming packet
++   Added a hint icon management system
+	-   Support for following entities around, even those that are not on the minimap anymore...
+		+   This can be used for things like target systems in the wilderness/pvp areas :]
++   Fixed a clipping issue with objects (wilderness ditch would take up 2 tiles in the Y)
++   Added woodcutting
+	-   All tree types are supported [with tree levels]
+	-   All hatchet types are supported (inferno adze included) [with priority for best axe] [hatchet levels too]
+	-   With support for inferno adze
++   Added projectile sending
++   Added object spawning per region
++   Added interface on object packet decoding, as well as pathfinding to the object
++
+
+MEDIA
+[img]http://i.imgur.com/xBSOZy6.png[/img]
+[img]http://i.imgur.com/xXK31N6.png[/img]
+[img]http://i.imgur.com/NfKcRTb.gif[/img]
+[img]http://i.imgur.com/wE8bIbc.gif[/img]
+[IMG]http://i.imgur.com/pFmFm5K.png[/img]
+[IMG]http://i.imgur.com/aKtRgoG.gif[/img]
+[IMG]http://i.imgur.com/8Zqhmnw.png[/img]
+[IMG]http://i.imgur.com/qIeQjth.png[/img]
+}
+
+6/15/17 {
++   Fixed some region clipping bugs
++   Finished quick prayers
++   Added hit color changing
+	-   Based on RSWIKI entry
+		+    'Darker splats appear when someone takes damage not dealt or received by you, allowing you to easily distinguish damage in mulitplayer situations.'
++   Added shop management with buying + selling
+	-   Also support for custom item amounts [I.E. buying 10x noted sharks from the shop]
+	-   Support for custom item amounts is implemented in selling as well
+
+	MEDIA
+
+	[IMG]http://i.imgur.com/KH0fLeC.gif[/IMG]
+	[IMG]http://i.imgur.com/yZWvPqJ.png[/IMG]
+	[IMG]http://i.imgur.com/2ycxE51.gif[/IMG]
+}
+
+6/8/17 {
+	+   Added item bonus viewing in the equipment stats interface
+	+   Added wilderness ditch hopping
+	+   Added item on item packet decoding.
+	+   Added firemaking
+	+   Fixed a couple more region system flaws (almost finished now)
+	+   Added a lot of item examines
+	+   Added keyboard shortcuts
+		-   ESC = close interfaces
+		-   1,2,3,4,5 = dialogue options
+		-   Spacebar = next dialogue
+	+   Updated switches to be more realistic (not yet perfect)
+	+   Fixed clipping for falador bar
+	+   Added world map
+	+   Started edgeville redesign
+	+   Got a start on quick prayers
+
+	MEDIA
+
+	[IMG]http://i.imgur.com/mtpq6zR.png[/IMG]
+	[IMG]http://i.imgur.com/1l46r0N.gif[/IMG]
+	[IMG]http://i.imgur.com/klzbS5b.png[/IMG]
+	[IMG]http://i.imgur.com/IFTiJS2.png[/IMG]
+	[IMG]http://i.imgur.com/fwUwujX.png[/IMG]
+	[IMG]http://i.imgur.com/J95Bgxi.png[/IMG]
+	[IMG]http://i.imgur.com/KcX18Jt.png[/IMG]
+}
+
+6/7/17 {
+	+   Fixed some walking bugs and finished the path finding updates
+	+   Rewrote the movement system
+	+   Added the minimap flag packet
+	+   Added profanity filter toggling (havent implemented yet)
+	+   Created a prayer system with full support for both books & toggling
+	+   Added item bonuses via json loading
+
+	[IMG]http://i.imgur.com/mQhSjqW.png[/IMG]
+	[IMG]http://i.imgur.com/ugGh52c.gif[/IMG]
+	[IMG]http://i.imgur.com/Js0py8K.png[/IMG]
+	[IMG]http://i.imgur.com/inmX6PH.gif[/IMG]
+
+
+6/6/17 {
+	+   Read all equipment slots/types from file
+	+   Added object spawning/removal
+		-   Removing objects is simple and loaded from a file
+		-   All players in the same region will always see the same objects
+		-   Removing cache spawned objects/player spawned objects works the same
+	+   Wrote a new dialogue system [npc/player/message/item dialogue types supported]
+	+   Updated path finding system to MGI's
+
+	MEDIA
+	[IMG]http://i.imgur.com/h3lwr1j.png[/IMG]
+	[IMG]http://i.imgur.com/F1ksuI2.gif[/IMG]
+}
+
+6/1/17 {
+	+   Fixed an issue with encoding packets that had an id greater than the max byte value
+		-  Added the container update packet
+	+   Added skill leveling up
+		-   This shows level up flashing in your skill tab as well
+		-   This shows a dialogue for levelling up as well
+	+   Added item module support
+	+   Added an action system for skilling and other implementations
+	+   Added prayer training via bone burial as a result of the item modules & action system
+	+   Added player locking (stopping players from interacting with npcs/objects/items/walking for x time)
+		-   This is important so you can't do actions over and over (i.e spam burying bones)
+	+   Added accurate level advancing information into the skill menu
+	+   Finished floor item management (items that are public by default are supported as well)
+		-   When you enter a new area you will see the items on that floor
+	+   Added cache animation decoding
+	+   Added a system to perform emotes from the emote tab
+		-   Also unlocked a lot of default emotes using configs
+		-   You also can't perform an emote if ur last emote is still playing.
+	+   Added object interactions (all options including examine are decoded)
+
+	MEDIA
+	[img]http://i.imgur.com/VY5FDR1.png[/img]
+	[IMG]http://i.imgur.com/ndz767L.gif[/IMG]
+	[IMG]http://i.imgur.com/XlGdZEH.gif[/IMG]
+}

@@ -1,0 +1,9 @@
+Close prayers when you die
+Killing somebody shold unfreeze you
+Dying in pvp world should birng you to bank [unattackable reset timer]
+Moving items in inv while banking doesnt  update slots
+Lobby player count doesnt update
+edgeville leftmost map doesnt send
+::empty
+autocast equipping weapons like it was on 2011
+equip defender with 2h weapon on it'll say no room

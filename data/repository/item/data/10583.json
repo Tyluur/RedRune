@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    40,
+    20,
+    -10,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    30,
+    0,
+    2,
+    0
+  ],
+  "examine": "(Normal) A mystical-feeling dagger. (Poisoned) The twisted blade is covered with a nasty poison.",
+  "weight": 0.4
+}

@@ -1,0 +1,30 @@
+{
+  "drops": [
+    {
+      "itemId": 12155,
+      "minAmount": 0,
+      "maxAmount": 5,
+      "rate": 50.0
+    },
+    {
+      "itemId": 12183,
+      "minAmount": 0,
+      "maxAmount": 65,
+      "rate": 50.0
+    },
+    {
+      "itemId": 12205,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 50.0
+    },
+    {
+      "itemId": 12208,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 50.0
+    }
+  ],
+  "bonuses": {},
+  "combatDefinitions": {}
+}

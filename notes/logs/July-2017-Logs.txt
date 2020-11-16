@@ -1,0 +1,214 @@
+7/28/17 {
+	+   Added support for teleport spells that don't randomize the destination location [teleport to fishing guild so you have to have the right fishing level still, or it might teleport you inside the guild]
+		-   Added every lunar teleport spell
+	+   Added 'unrepeating messages'
+		-   This makes it so your chatbox isn't spammed by things like 'you need to be out of combat for 10 seconds before logging out', or 'a mysterious force stops you from moving'. If you recently saw this message you won't see it again.
+		-   Changed default messages from being "unrepeating"
+	+   Added skill restoring tasks
+		-   Executed every 100 ticks
+		-   Used to bring levels that are too low/too high back to the original level
+		-   Rapid restore & berserker prayer actually influence these rates
+		-   If you're resting, these rates will be also influenced
+	+   Added health restoration tasks
+		-   Brings the health back to the maximum value every 10 ticks by 1.
+		-   Added max hitpoints boosts for nex items
+			+   On removal of items, if your health is past the maximum health you can possibly have, it is set to your max
+				-   Note: this doesn't affect things like hp boosts from brews or rocktails, only nex armour
+	+   Removed all objects from western edgeville room in preparation for dicing.
+	+   Updated leech projectiles slightly, landing graphics id isn't played until the projectile actually lands
+	+   Added blood money into the client
+	+   Added default client settings for newcomers [accept aid = off is important]
+		-   Filtering profanity is off, most people are used to it anyway.
+	+   Updated refactored client on git
+
+	[img]http://i.imgur.com/esoY0uX.gif[/img]
+	[img]http://i.imgur.com/pfKK7UJ.gif[/img]
+	[img]http://i.imgur.com/pfbIgCQ.png[/img]
+	[img]http://i.imgur.com/6wdkdUV.gif[/img]
+	[img]http://i.imgur.com/57jWuOB.png[/img]
+}
+
+7/27/17 {
+	+   Fixed several npc bugs
+		-   Unable to find best target in multi zone
+		-   Player retaliation was off
+		-   Transformation wasn't perfect [death used original definitions]
+		-   Teleportation wasn't perfect
+	+   Added rock crabs to test npc transformation
+		-   You have to walk close to a rock crab to start the fight with them, their drop tables are accurate, etc.
+	+   Fixed instant special events being able to be fired when the target is dead [i.e. gmaul]
+	+   Added leech prayer effects to npcs [including soulsplit + saps] (benefits of good code makes this easy)
+	+   Added interface on npc packet [for magic spells and more]
+		-   Had to fix readIntV1 to implement this
+	+   Added recursion for finding classes in directory [reflection-based operations can now be packaged [check media for info]
+	+   Added magic teleporting [dynamic addition of spells, with support for any spell type using context wrappers]
+		-   Added every regular prayerbook teleport spell
+		-   Added every ancient prayerbook teleport spell
+		-   Started on lunar spellbook spells [home & moonclan teleport added]
+	+   Added vengeance
+		-   Click cast on the spell again to see countdown info, on-screen countdown will be added soon
+		-   Added vengeance group spell as well [with accept-aid requirement]
+	+   Fixed deflect prayers sending the deflected amount instead of just having the damage set to 0 when an npc attacks us
+	+   Added food listener & effects for 20+ foods
+		-   Karambwan combo food eating works too, as well as rocktail hp boosts [pizzas as well]
+		-   Combat delay is 2 ticks
+	+   Added 10 second wait before you can logout from combat
+	+   Made npcs random walk to be centralized around their spawn location, not based on their current location [npcs won't walk randomly around the map now]
+	+   Fixed issue with packet lengths 0 not being received [interface close for example]
+
+	[img]http://i.imgur.com/XfgfWWF.gif[/img]
+	[img]http://i.imgur.com/UFCYcap.gif[/img]
+	[img]http://i.imgur.com/vvjXX9a.gif[/img]
+	[img]http://i.imgur.com/ylrenJD.png[/img]
+	[img]http://i.imgur.com/mWdjTW4.gif[/img]
+	[img]http://i.imgur.com/Hdb4nnp.gif[/img]
+	[img]http://i.imgur.com/wBeV9bR.png[/img]
+	[img]http://i.imgur.com/vh67mgF.png[/img]
+	[img]http://i.imgur.com/TXY0oMH.gif[/img]
+}
+
+7/25/17 {
+	+   Updated npc movement masks to work
+	+   Updated lobby server to update with realtime playercount for all worlds
+	+   Removed java.util.logging.Logger implementation and replaced with sout
+		-   Planning on using a console to manage worlds down the line
+	+   Added milliseconds to out logging
+		-  [InterfaceManager.java:424#closeAllInterfaces][07:25:2017 02:23:05.149]  closed chatbox
+	+   Added anti-pjing verifications
+		-   'You are already in combat'/'This npc is already in combat' checks
+	+   Updated npc combat with 5.2k new combat definitions
+	+   Added random npc movement using values that seemed reasonable to me (if you know better pls update me)
+		-	Added list of npcs that don't walk from hdpvp
+		-   Most npcs walk a radius of 10 tiles at random so I set this to all npcs except custom cases for RR
+		-   If we've walked too far from home we will traverse back home
+			+   However if we're too far to walk back in within 10 seconds [~ 16 ticks] we will be teleported to our start tile after that time
+	+   Added npc aggressive checks
+		-   All wilderness npcs are aggressice
+			+   Combat level * 2 to be skipped
+	+   Added npc transformation mask
+		-   Will apply tomorrow and perfect npc aggression [i.e. on rock crabs]
+
+	[img]http://i.imgur.com/4FRdQjH.gif[/img]
+	[img]http://i.imgur.com/GUFyBeU.png[/img]
+	[img]http://i.imgur.com/at2oqEt.png[/img]
+	[img]http://i.imgur.com/IRTaR18.png[/img]
+	[img]http://i.imgur.com/pZ6t7pF.png[/img]
+}
+
+7/21/17 {
+	+   Encountered an irritating issue with packet decoding & resolved it after spending a day on it.
+		-   Finished ISAAC decryption with decoding
+	+   Finally finished player file synchronization over multiple worlds
+		-   Merged lobby server & download server into one server, with different handshake handling.
+	+   Started PVM System
+		-   Loaded 971 dumped npc combat definitions
+			+   These include 1000+ ids of npcs with different bonuses, attack animations, etc
+			+   As well as charm drops
+			+   As well as drop tables
+		-   Wrote npc drop table system & implemented it [with charms]
+		-   Wrote npc combat system and implemented it with a test class for npcs that don't have custom swings
+			+   Man, guard, woman, hellhound, etc....
+		-   Wrote npc defense bonus calculation for pvm [so realistic hits are done when you're fighting npcs]
+	+   Added wilderness area checking to player appearance update block [126 + 12/138 cb lvl]
+
+	[IMG]http://i.imgur.com/wqdQRDn.gif[/IMG]
+	[img]http://i.imgur.com/SeqPw2l.png[/img]
+	[img]http://i.imgur.com/fCo8MNK.gif[/img]
+}
+
+7/19/17 {
+	+   Converted networking to use netty 4 library
+		-   This came with addition of RSA & ISAAC encryption/decryption
+	+   Changed client src to a better 666 src
+	+  Added 'lobby server' to be the main connection server
+		-   'World server' support is easy and adding another world is as simple as pressing run
+		-   Each world no longer has their own lobby and we have one big lobby server
+	+   This might seem like small tasks but check the second photo for context as to how long it takes to do these things right
+		-   Credits to Walied for answers & support
+
+	[IMG]http://i.imgur.com/kYz6Ndt.png[/IMG]
+	[IMG]http://i.imgur.com/m2cJmM4.png[/IMG]
+}
+
+7/12/17 {
+	+   Progress continued on master server
+	+   Successfully integrated it into the real game server
+		-   Login requests are all handled on the master server
+		-   Response codes are sent from the master server to the game server
+		-   Each world has their own lobby server
+		-   Still using json for player file saving, we're now encoding & transmitting the player file over the network (serialization saving ease of use)
+		-   Added private messaging over the network
+		-   Automatic reconnection listener incase of connection drops
+		-   Connection verification for packets so we don't send packets when the server is offline
+		-   Connection verification for game server, if the master server is offline and someone tries to log in, they get a 'login server offline' messaeg
+			+   If the master server goes offline, players online aren't affected but private messages/logins will be broken
+
+	[IMG]http://i.imgur.com/XDwQ6tC.png[/IMG]
+	[IMG]http://i.imgur.com/0Bc8CH5.png[/IMG]
+}
+
+7/11/17 {
+	+   Recognized an error in the dark bow special projectiles + hit delays and fixed it, they're 100% now. [thx aero for pointing this out]
+	+   Started progress on our new master server (tossed the old one so we could use netty 4)
+
+	[IMG]http://i.imgur.com/7HcWPf5.gif[/IMG]
+}
+
+7/10/17 {
+	+   Added multi zone area listeners + flag setting when we walk in and out of a multi zone
+	+   Added object names to dialogue subscriptions [dialogues with subscriptions mapped will be fired when the interaction starts]
+
+	[IMG]http://i.imgur.com/urngRNf.png[/IMG]
+}
+
+7/9/17 {
+	+   Added general game bar toggling + saving
+	+   Identified client packet for private game bar changing
+	+   Identified client packet for public/trade game bar changing
+	+   Added private/public/trade game bar changing + saving
+	+   Added hitpoint modification
+	+   Added hitpoint refresh config
+	+   Added death events for players
+	+   Added saradomin brew + guthix flask health modifications
+	+   Added correct items on death calculation based on item values.
+	+   Added new special attacks
+		-   Bandos godsword [The Bandos godsword's special attack, "Warstrike", has doubled accuracy, inflicts 21% more damage and drains the opponent's combat stats equivalent to the damage hit in the following order: Defence, Strength, Attack, Prayer, Magic, Ranged. For example, if the special attack inflicts 50 damage on a foe with 30 in all combat stats, it would drain 30 Defence and 20 Strength levels (leaving the target with 0 Defence and 10 Strength).]
+		-   Zamorak godsword [The Zamorak godsword has a special attack, Ice Cleave, which freezes the target in place for 20 seconds; the same duration as Ice Barrage. Additionally, the special doubles the user's accuracy and increases the user's max hit by 10%. It uses 50% of the special attack bar. The sword's special attack must produce a successful hit in order to have the freezing effect.]
+		-   Saradomin godsword [When used, the player's max hit is increased by 10%, accuracy is doubled, and half of the damage dealt (rounded down) by the sword is restored to the player's hitpoints, and 1/4 of the damage is restored to the player's Prayer. This drains 50% of the special attack bar.]
+		-   Saradomin sword [Its special attack adds up to 16 extra Magic-based damage to the standard melee attack. If the melee attack misses, then the magic attack will not activate. However, the melee-based can still hit a 0 with the magic-based still activating (similar to Guthan's healing a 0 hit). Players receive 2 Magic experience for each point of damage caused by the magical hit. This special attack consumes the user's entire special attack bar.]
+			-   Also updated the speed to match whip's speed
+		-   Dragon claw special [These claws feature a special attack, Slice and Dice, which drains 50% of the special attack bar and hits an enemy four times in succession, which is popularly used by PKers as a finisher.]
+		-   Vesta's longsword special
+		-   Korasi's sword special
+		-   Dark bow special
+	+   Updated range max hit formula [max of 480 with dark bow and elite void]
+
+	[IMG]http://i.imgur.com/I28JL9K.png[/IMG]
+	[IMG]http://i.imgur.com/NV80KJg.png[/IMG]
+	[IMG]http://i.imgur.com/lhuQ1YX.gif[/IMG]
+	[IMG]http://i.imgur.com/jJJaXUK.gif[/IMG]
+	[IMG]http://i.imgur.com/W6ua7NW.gif[/IMG]
+	[IMG]http://i.imgur.com/5jhutWO.gif[/IMG]
+	[IMG]http://i.imgur.com/XkGihea.png[/IMG]
+}
+
+7/5/17 {
+	+   Added an activity system for handling activities like being in the wilderness
+	+   Added support for walkable interfaces in the interface manager [previously we never needed to send walkable interfaces]
+	+   Added wilderness activity
+		-   Shows the wilderness level you're on in the overlay
+		-   Attempting to fight someone will always make you face them [pjer alert ;)]
+
+	[IMG]http://i.imgur.com/1Qkqai6.png[/IMG]
+	[IMG]http://i.imgur.com/IXt9Pz5.png[/IMG]
+}
+
+7/4/17 {
+	+   Started dynamic region system
+		-   Clip flags loading
+		-   Object loading
+		-   Unfinished at the moment still requires some finishing for clipped movement
+
+	[IMG]http://i.imgur.com/hdquLZS.png[/IMG]
+
+}

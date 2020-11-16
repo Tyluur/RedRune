@@ -1,0 +1,42 @@
+Drawing Board: https://sketch.io/sketchpad/
+
+Combat notes:
+	http://services.runescape.com/m=forum/forums.ws?317,318,712,65587452
+	* formulas and shit
+
+Tree stumps
+	https://www.rune-server.ee/runescape-development/rs2-server/requests/590826-tree-stump-ids.html#post4839115
+
+1. Master Server Goes Online
+2. Master Client [Communication] connects to master server
+	->	If the connection is dropped we have to start a new attempt every x seconds.
+		->	Once a new connection is made we send all the data the client currently holds over to the master server
+		->	Tell the server that we have these players on world 'y'
+	->	If the connection is not able to be done originally, the connection active worker keeps trying
+	->	TCP doesn't worry about connection lost for the most part though [important to handle still]
+	->	If the connection to the master server is broken, players online will suffer not being able to send messages to clans/friends
+		->	Also they will not be able to log in. Login is fully based on the master server
+3.	Master Server Connection is GOOD! How do we communicate with the worlds?
+	+	Clients first send their id and their secure key token. If these two aren't already registered in the master server it's good to go.
+	+	Secure key token used incase code is leaked and we're flooded with master server information.
+4.	Once the connection is secured, we have different types of packets to send:
+	+	Login Request
+	+	Contacts
+		-	Friend List
+			+   Messaging [DONE]
+				-   Message is sent to the master server, which then sends it to the right client
+			+   Status updating [DONE]
+				-   Status is sent to the master server, which then tells all the people who have the player on their friend list
+			+   Friend List [DONE]
+				-   We save the list of contacts that we have
+					+   When the player logs in, we send a request for the contact
+					+   The master server then delivers each friend back to the client as an individual packet
+					+
+	+	Friend Chat
+		-	Joining
+		-	Leaving
+		-	Messaging
+		-	Creation
+	+
+
+

@@ -1,0 +1,156 @@
+{
+  "drops": [
+    {
+      "itemId": 20268,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 1319,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 53.0
+    },
+    {
+      "itemId": 11736,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 53.0
+    },
+    {
+      "itemId": 808,
+      "minAmount": 98,
+      "maxAmount": 98,
+      "rate": 69.0
+    },
+    {
+      "itemId": 11716,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 11710,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 53.0
+    },
+    {
+      "itemId": 11712,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 26.0
+    },
+    {
+      "itemId": 11714,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 48.0
+    },
+    {
+      "itemId": 995,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 83.0
+    },
+    {
+      "itemId": 246,
+      "minAmount": 7,
+      "maxAmount": 7,
+      "rate": 74.0
+    },
+    {
+      "itemId": 886,
+      "minAmount": 98,
+      "maxAmount": 98,
+      "rate": 64.0
+    },
+    {
+      "itemId": 386,
+      "minAmount": 3,
+      "maxAmount": 3,
+      "rate": 56.0
+    },
+    {
+      "itemId": 7061,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 64.0
+    },
+    {
+      "itemId": 157,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 57.0
+    },
+    {
+      "itemId": 145,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 73.0
+    },
+    {
+      "itemId": 189,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 70.0
+    }
+  ],
+  "bonuses": {
+    "6204": [
+      275,
+      0,
+      0,
+      0,
+      0,
+      220,
+      0,
+      0,
+      150,
+      235
+    ]
+  },
+  "combatDefinitions": {
+    "6204": {
+      "hitpoints": 1420,
+      "attackAnim": 64,
+      "defenceAnim": 65,
+      "deathAnim": 67,
+      "attackDelay": 4,
+      "deathDelay": 5,
+      "respawnDelay": 60,
+      "maxHit": 210,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12158,
+      "minAmount": 1,
+      "maxAmount": 14,
+      "rate": 0.3
+    },
+    {
+      "itemId": 12159,
+      "minAmount": 1,
+      "maxAmount": 14,
+      "rate": 0.2
+    },
+    {
+      "itemId": 12160,
+      "minAmount": 1,
+      "maxAmount": 14,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12163,
+      "minAmount": 1,
+      "maxAmount": 14,
+      "rate": 0.05
+    }
+  ]
+}

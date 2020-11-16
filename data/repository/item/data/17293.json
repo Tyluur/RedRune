@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    -5,
+    -5,
+    -5,
+    -10,
+    -5,
+    0,
+    0,
+    0,
+    -10,
+    0,
+    0,
+    0,
+    0,
+    0,
+    -5,
+    0,
+    0,
+    25
+  ],
+  "examine": "It has been cursed with dark energies, clouding the mind of the wielder.",
+  "weight": 6.0
+}

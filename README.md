@@ -1,1 +1,1 @@
-# RedRune666-Server
+# RedRune

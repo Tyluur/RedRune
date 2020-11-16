@@ -1,0 +1,11 @@
+[
+  {
+    "npcId": 941,
+    "tile": {
+      "x": 3272,
+      "y": 5416,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  }
+]

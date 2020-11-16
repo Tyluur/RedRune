@@ -1,0 +1,21 @@
+# cache
+*.idx*
+*.dylib
+*.dll
+*.dat*
+
+# class files
+*.class
+/bin
+
+# virtual machine crash logs
+hs_err_pid*
+
+# ide files
+/target
+*.iml
+*.project
+*.classpath
+
+# player saves
+/bytes/saves/*

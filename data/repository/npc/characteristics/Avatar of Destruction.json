@@ -1,0 +1,143 @@
+{
+  "drops": [
+    {
+      "itemId": 532,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 1755,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 50.0
+    },
+    {
+      "itemId": 1733,
+      "minAmount": 1,
+      "maxAmount": 100,
+      "rate": 20.0
+    },
+    {
+      "itemId": 1985,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 30.0
+    },
+    {
+      "itemId": 380,
+      "minAmount": 1,
+      "maxAmount": 11,
+      "rate": 10.0
+    },
+    {
+      "itemId": 7170,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 1743,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 15.0
+    },
+    {
+      "itemId": 1607,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 30.0
+    },
+    {
+      "itemId": 1215,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 30.0
+    },
+    {
+      "itemId": 1611,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 20.0
+    },
+    {
+      "itemId": 1079,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 35.0
+    },
+    {
+      "itemId": 1215,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 20.0
+    },
+    {
+      "itemId": 21462,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 21463,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 21464,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 21465,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 21466,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    },
+    {
+      "itemId": 19784,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 5.0
+    }
+  ],
+  "bonuses": {
+    "8596": [
+      300,
+      300,
+      300,
+      300,
+      300,
+      350,
+      350,
+      150,
+      150,
+      350
+    ]
+  },
+  "combatDefinitions": {
+    "8596": {
+      "hitpoints": 1,
+      "attackAnim": 11197,
+      "defenceAnim": 11198,
+      "deathAnim": 11199,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}

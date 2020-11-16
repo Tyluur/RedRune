@@ -1,0 +1,456 @@
+{
+  "drops": [
+    {
+      "itemId": 6812,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 1285,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 84.0
+    },
+    {
+      "itemId": 1361,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 66.0
+    },
+    {
+      "itemId": 1357,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 62.0
+    },
+    {
+      "itemId": 6324,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 55.0
+    },
+    {
+      "itemId": 1399,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 58.0
+    },
+    {
+      "itemId": 6809,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 32.0
+    },
+    {
+      "itemId": 7937,
+      "minAmount": 60,
+      "maxAmount": 60,
+      "rate": 78.0
+    },
+    {
+      "itemId": 556,
+      "minAmount": 10,
+      "maxAmount": 60,
+      "rate": 90.0
+    },
+    {
+      "itemId": 555,
+      "minAmount": 11,
+      "maxAmount": 60,
+      "rate": 84.0
+    },
+    {
+      "itemId": 562,
+      "minAmount": 10,
+      "maxAmount": 10,
+      "rate": 93.0
+    },
+    {
+      "itemId": 563,
+      "minAmount": 2,
+      "maxAmount": 10,
+      "rate": 93.0
+    },
+    {
+      "itemId": 565,
+      "minAmount": 2,
+      "maxAmount": 10,
+      "rate": 80.0
+    },
+    {
+      "itemId": 566,
+      "minAmount": 5,
+      "maxAmount": 10,
+      "rate": 86.0
+    },
+    {
+      "itemId": 1454,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 31.0
+    },
+    {
+      "itemId": 1452,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 39.0
+    },
+    {
+      "itemId": 8882,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 84.0
+    },
+    {
+      "itemId": 9142,
+      "minAmount": 1,
+      "maxAmount": 8,
+      "rate": 91.0
+    },
+    {
+      "itemId": 9143,
+      "minAmount": 1,
+      "maxAmount": 7,
+      "rate": 89.0
+    },
+    {
+      "itemId": 9144,
+      "minAmount": 1,
+      "maxAmount": 5,
+      "rate": 84.0
+    },
+    {
+      "itemId": 207,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63.0
+    },
+    {
+      "itemId": 211,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 60.0
+    },
+    {
+      "itemId": 205,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 71.0
+    },
+    {
+      "itemId": 199,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 65.0
+    },
+    {
+      "itemId": 217,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 62.0
+    },
+    {
+      "itemId": 2485,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63.0
+    },
+    {
+      "itemId": 5281,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 58.0
+    },
+    {
+      "itemId": 5301,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 62.0
+    },
+    {
+      "itemId": 5303,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 65.0
+    },
+    {
+      "itemId": 5104,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 69.0
+    },
+    {
+      "itemId": 5100,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 73.0
+    },
+    {
+      "itemId": 5292,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 57.0
+    },
+    {
+      "itemId": 5282,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 73.0
+    },
+    {
+      "itemId": 5295,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 74.0
+    },
+    {
+      "itemId": 12176,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 60.0
+    },
+    {
+      "itemId": 5323,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 60.0
+    },
+    {
+      "itemId": 5293,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 69.0
+    },
+    {
+      "itemId": 5321,
+      "minAmount": 4,
+      "maxAmount": 4,
+      "rate": 67.0
+    },
+    {
+      "itemId": 5105,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 72.0
+    },
+    {
+      "itemId": 5311,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 69.0
+    },
+    {
+      "itemId": 5304,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 36.0
+    },
+    {
+      "itemId": 618,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 77.0
+    },
+    {
+      "itemId": 380,
+      "minAmount": 3,
+      "maxAmount": 3,
+      "rate": 66.0
+    },
+    {
+      "itemId": 365,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 65.0
+    },
+    {
+      "itemId": 149,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 65.0
+    },
+    {
+      "itemId": 133,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 66.0
+    },
+    {
+      "itemId": 1619,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 66.0
+    },
+    {
+      "itemId": 1621,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 73.0
+    },
+    {
+      "itemId": 1623,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 72.0
+    },
+    {
+      "itemId": 1617,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63.0
+    },
+    {
+      "itemId": 526,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 50.0
+    },
+    {
+      "itemId": 2366,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 8.0
+    },
+    {
+      "itemId": 11286,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 1.0
+    }
+  ],
+  "bonuses": {
+    "3068": [
+      500,
+      0,
+      0,
+      0,
+      400,
+      600,
+      0,
+      0,
+      650,
+      400
+    ],
+    "3069": [
+      500,
+      0,
+      0,
+      0,
+      400,
+      600,
+      0,
+      0,
+      650,
+      400
+    ],
+    "3070": [
+      500,
+      0,
+      0,
+      0,
+      400,
+      600,
+      0,
+      0,
+      650,
+      400
+    ],
+    "3071": [
+      500,
+      0,
+      0,
+      0,
+      400,
+      600,
+      0,
+      0,
+      650,
+      400
+    ]
+  },
+  "combatDefinitions": {
+    "3068": {
+      "hitpoints": 2000,
+      "attackAnim": 1590,
+      "defenceAnim": 1587,
+      "deathAnim": 1591,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 100,
+      "maxHit": 130,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3069": {
+      "hitpoints": 2000,
+      "attackAnim": 1590,
+      "defenceAnim": 1587,
+      "deathAnim": 1591,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 100,
+      "maxHit": 130,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3070": {
+      "hitpoints": 2000,
+      "attackAnim": 1590,
+      "defenceAnim": 1587,
+      "deathAnim": 1591,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 100,
+      "maxHit": 130,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3071": {
+      "hitpoints": 2000,
+      "attackAnim": 1590,
+      "defenceAnim": 1587,
+      "deathAnim": 1591,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 100,
+      "maxHit": 130,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12158,
+      "minAmount": 1,
+      "maxAmount": 30,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12159,
+      "minAmount": 1,
+      "maxAmount": 30,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12160,
+      "minAmount": 5,
+      "maxAmount": 30,
+      "rate": 0.5
+    },
+    {
+      "itemId": 12163,
+      "minAmount": 1,
+      "maxAmount": 30,
+      "rate": 0.1
+    }
+  ]
+}

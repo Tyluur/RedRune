@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    133,
+    113,
+    120,
+    0,
+    0,
+    18,
+    21,
+    21,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    122,
+    0,
+    0,
+    0
+  ],
+  "examine": "This item degrades in combat, and will turn to dust.",
+  "weight": 4.0
+}

@@ -1,0 +1,226 @@
+8/19/17 {
+	+   Added player character styling
+	+	Added basic supplies interface modification
+	+	Renamed interface changing command
+	+	Updated cache in the fs folder
+
+	[img]http://i.imgur.com/JXuOcFG.png[/img]
+}
+
+8/17/17 {
+	+   Added a notification before you log into a pvp world that it is a pvp world
+	+   Added inbox/email verification/donation popups from lobby when you click 'email'... etc
+	+   Added a packet to open urls
+	+   Added account creation popup when you log in with an account that doesn't yet exist [instead of making you click back and login yourself]
+	+   Started on punishments that are applied on all worlds
+		-   We can punish somebody in world 1, 2, or the lobby, from world 1 [useful if people spam friend chats/pms from the lobby etc]
+	+	
+
+	[IMG]http://i.imgur.com/M7c3xGq.gif[/IMG]
+	[img]http://i.imgur.com/TD0Ww9x.png[/img]
+	[IMG]http://i.imgur.com/WNJfz8q.gif[/img]
+
+}
+
+8/16/17 {
+	+   Completed account creation [username verification & account creation has two different blocks of data to decode]
+		-   Replaced all email entry data with username entry data in account creation
+	+   Added forum account integration for login
+		-   You must have a forum account to login, but you will automatically be made one when you create an account with the 'Create Account Now'
+		-   If you don't have a forum account when you're logging in, it will tell you to create one [will make the create account popup box show instead of making you click later]
+	+   Added forum account integration for lobby
+		-   Unread messages will show
+		-   Unregistered email will show [you have a fake default email set when you register for the first time, you have to change it for this to be set]
+			+   Adding changing email ingame later
+	+   Added forum member group integration
+		-   All your forum ranks will be pushed onto your ingame account
+		-   Your primary grup on the forums will act as your primary group on the game, but you will still have the benefits of secondary groups [so you can be moderator + youtuber/donator/respected and alternate the primary one if you want on the forum]
+		-   All your forum data is stored into your player file every time you login, so we can grab anything from your forum profile [passwords are encrypted and can't be leaked though]
+	+   Added combat timers for freeze + veng
+		-   Shows how long until you can veng again
+		-   Shows how long until you are unfrozen [entangle/barrage/all freeze types]
+		-   Also changed freeze timer to use milliseconds instead of ticks for visual purposes
+	+   Added world 2 pvp area mapping
+		-   Also added dangerous countdown
+		-   Also added pvp area wilderness level of 20
+		-   Also added default earning potential
+		-   Also added verification that you can only be in a pvp instance on world 2
+
+	[img]http://i.imgur.com/F2Tf9iX.png[/img]
+	[img]http://i.imgur.com/4dTMbs3.gif[/img]
+	[img]http://i.imgur.com/9Ul2iF2.png[/img]
+	[img]http://i.imgur.com/eQ67svs.png[/img]
+	[img]http://i.imgur.com/X5wpUdk.png[/img]
+	[img]http://i.imgur.com/MymCWqC.png[/img]
+}
+
+8/15/17 {
+	+   Started work on osrs data loading
+	+   Added an animation for the teleporation wizard at home
+	+   Fixed a lot of issues with the master server/client communication [overlooked something severe in the inital writing process]
+	+   Added private messaging/status updating/friend list requesting [friend server]
+		-   Also removal of people from your friend/ignore list
+	+   Added a new function with a safe algorithm for [de][encoding/compression] data, to speed up the rate at which player files are transmitted over the network
+		-   Using secure keys to ensure files aren't exposed
+	+   Fixed a client bug that would make you have to select a world before logging in [default world is main world now]
+	+   Added cache crc verification on lobby login
+	+   Added cache crc verification on world login
+	+   Added complete login decoding [identified misc. data [ex: isWebclient, javascriptEnabled, operatingSystemId, javaVendorId, javaVersionId]]
+	+   Updated the registration page to show username input/hovers instead of email
+
+	[img]http://i.imgur.com/isTcvyi.png[/img]
+	[img]http://i.imgur.com/bCMgb7m.png[/img]
+	[img]https://imgur.com/4kvDvlQ[/img]
+	[IMG]http://i.imgur.com/g6IWHJW.png[/IMG]
+}
+
+8/10/17 {
++   Added dragon battleaxe special attack
++   Fixed animate entity over interface packet, animations now properly work for npcs/players over dialogues
++   Fixed hitsplats colors [dark red for hits that aren't yours/bright red for hits that are yours]
++   Added trade interactions
+	-   Flashing for when an item is removed
+	-   They are handled as part of the interaction system [used for npc interactions as well, will be implemented into duel arena too]
++   Added client zooming [credits chyronic]
++   Added middle mouse movement [credits chryonic]
++   Fixed x-logging and made it so if you're in combat you're only kicked from the server after a minute
+	-   If you're dying when you attempt to log out the same countdown will happen.
+
+[img]http://i.imgur.com/kAj2kgE.gif[/img]
+[img]http://i.imgur.com/gKyuMCJ.gif[/img]
+[img]http://i.imgur.com/7yoYKCV.png[/img]
+}
+
+8/9/17 {
+	+   Added crossbow bolt special attacks [dragon bolts, onyx bolts, ruby bolts, diamond bolts, jade bolts] (e)
+	+   Added skulling in the wilderness
+	+   Updated overlay component id to be the right one [not overlapping interfaces, but rather behind them] [thanks to aero for noticing]
+	+   Fixed custom region object spawns not being visible sometimes
+	+   Fixed a bug with auto retaliate where npcs wouldn't retaliate when they were moving
+	+   Added an information tab that automatically updates every 5 ticks [3 seconds]
+	+   Customized the edgeville room out some more
+	+   Re-added the hdpvp "quest" scroll that's clickable
+	+   Re-added the hdpvp teleportation interface
+	+   Added prayer/spell book switching via altar
+
+	[img]http://i.imgur.com/EZBqp5U.gif[/img]
+	[img]http://i.imgur.com/YdL6d7S.png[/img]
+	[img]http://i.imgur.com/Y6b8CKe.png[/img]
+	[img]http://i.imgur.com/2eCdQNh.gif[/img]
+}
+
+8/7/17 {
+	+   Fixed the 'view stats' on equipment bonuses screen to use the right components [credits simbiotic]
+	+   Added all wind/water/earth/fire spells [strike/bolt/blast/wave/surge]
+	+   Added all god spells in regular spellbook [saradomin strike/flames of zamorak/claws of guthix/storm of armadyl]
+		-   Charging brings their max hit up to 300 for 600 ticks [6 minutes]
+		-   Storm of armadyl hits up to 270 damage without any other boosts [ignore the last 310 in my gif i updated it]
+		-   Storm of armadyl also has a minimum damage of 0 - 110 [dependent on your magic level, 110 being minimum at 110 magic]
+	+   Added all curse spells in regular spellbook
+		-   Confuse/weaken/curse
+		-   Vulnerability/enfeeble/stun
+			+   They drain your opponent's skills like they're supposed to [and don't stack]
+		-   Bind/snare/entangle
+			+   Freeze your target for the right amount of time [with about 3 seconds of getaway][no overlapping]
+	+   Added teleblock
+		-   Without mage protection you're tbed for 5 mins, with mage protection your tbed for 2 1/2 minutes
+		-   Note that in the gif I had multiple tbs being able to be applied, but if you're tbed once you won't be able to be tbed again until it lapses
+	+   Updated shadow spells to drain capped with a new method
+	+   Added all miasmic spells + their combat speed effect
+	+   Added dragon longsword, dragon halberd, and dragon mace special attacks
+
+	[img]http://i.imgur.com/CK4Xkmx.png[/img]
+	[img]http://i.imgur.com/ALXmN50.gif[/img]
+	[img]http://i.imgur.com/SPf5MKi.gif[/img]
+	[img]http://i.imgur.com/enNWDPs.gif[/img]
+	[img]http://i.imgur.com/XvLMeua.gif[/img]
+}
+
+8/4/17 {
+	+   Changed poison to damage people at an 18 second interval instead of a 15 second interval
+}
+
+8/3/17 {
+	+   Made halberds able to attack the target from 2 tiles away
+	+   Fixed multiplayer issue with player updating [this was broken since i changed to the new client]
+		-   Tested dropping items in the wilderness to make sure food/pots wouldn't be visible for other people automatically as well
+	+   Fixed a small floor item bug [after an item was picked up it would be public but not really existent in the game]
+	+   Added an interaction system
+		-   Support for npc interactions
+			+   NPCs cant walk randomly while they're interacting with somebody. When the interaction ends [you walk away/interface is opened/closed] the npc will then be allowed to get back to regular traversing
+			+   The animated gif had random walk paths being calculated every tick, which is why I had to spam click the npc
+		-   Support for trade interactions
+			+   Requesting is part of the interaction system, we store the last person you wished to trade with
+	+   Added a scheduled player saving task [every 10 minutes all player files save this is done over the network]
+	+   Added a reconnection packet for the master server
+		-   If the master server goes offline and the master client(s) reconnect to it, they must push all the data over to the server again. This is what that is for, otherwise the server won't be synchronized on reconnection
+
+	[img]http://i.imgur.com/A8NYgN2.gif[/img]
+	[img]http://i.imgur.com/r6pe10L.png[/img]
+	[img]http://i.imgur.com/N7pNcBC.gif[/img]
+}
+
+8/2/17 {
+	+   Changed npc aggression radius to their size * 2
+	+   Changed poison to happen at a 15 second interval
+	+   Fixed picking up floor items
+		-   If you're 1 tile away from the item and you're frozen or you can't clip to it, you can still grab it
+			+   The animation for taking items plays when this starts
+		-   If you're on the same tile as the item, pathfinding isn't necessary and you grab it as soon as possible
+		-   If you're > 1 tile away, you path to the item and grab it when you arrive at its location
+			+   If you're frozen you won't be able to path to the item, but you'll still face it
+	+   Added a command to find any npc in the cache, using their right click options to filter [if entered]
+	+   Added a command to find any object in the cache, using their right click options to filter [if entered]
+	+   Added object definition manipulation
+	+   Added npc removal via right click [owner only]
+	+   Added custom quest tab [will be used for presets/more]
+	+   Redesigned edgeville slightly via cache
+
+	[img]http://i.imgur.com/IKlHEhf.gif[/img]
+	[img]http://i.imgur.com/YBc4xVn.png[/img]
+	[img]http://i.imgur.com/RqGaUPA.png[/img]
+	[img]http://i.imgur.com/SmlVpGi.png[/img]
+
+}
+
+8/1/17 {
+	+   Refactored client object definitions
+	+   Updated xtea keys [i didnt't have accurate 666 xtea keys thus some places like varrock/fishing guild/ardougne wouldn't build properly]
+	+   Added temporary movement mask
+	+   Fixed activity data not saving on logout [you wouldn't be in the wilderness activity if u logged in and out]
+	+   Dropping items in the wilderness will make them automatically public
+		-   Except if they're edible - this will drop them at the regular rate
+	+   Added multi-target spell support
+		-   This means spells like ice barrage/ice burst that hit multiple targets at one time work properly in multi area [pking with clans is proper now]
+	+   Removed x75 combat multiplier - the server will be setlevel for combat skills [exp drops will be accurate now]
+	+   Fixed npcs not always facing the target when fighting
+	+   Fixed frozen npcs still walking in combat
+	+   Added more combat spells
+		-   Ice Burst
+		-   Ice Rush
+		-   Blood barrage
+		-   Blood blitz
+		-   Blood burst
+		-   Blood rush
+		-   Shadow barrage
+		-   Shadow blitz
+		-   Shadow burst
+		-   Shadow rush
+		-   Smoke barrage
+		-   Smoke blitz
+		-   Smoke burst
+		-   Smoke rush
+	+   Added poison management
+		-   Added anti poison potion effects
+		-   You are unable to rest when you are poisoned
+
+	[IMG]http://i.imgur.com/A4bgwhh.png[/IMG]
+	[img]http://i.imgur.com/FbhIdzM.png[/img]
+	[img]http://i.imgur.com/QC8pxp2.png[/img]
+	[img]http://i.imgur.com/XAEmssM.gif[/img]
+	[img]http://i.imgur.com/yCsNKDG.gif[/img]
+	[img]http://i.imgur.com/EOubJzU.gif[/img]
+	[img]http://i.imgur.com/VzmMupf.gif[/img]
+	[img]http://i.imgur.com/S9u9OV4.gif[/img]
+	[img]http://i.imgur.com/rrBKMWF.gif[/img]
+}

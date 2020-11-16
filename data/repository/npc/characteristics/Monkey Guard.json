@@ -1,0 +1,113 @@
+{
+  "drops": [],
+  "bonuses": {
+    "1459": [
+      250,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      85,
+      85
+    ],
+    "1460": [
+      250,
+      0,
+      0,
+      0,
+      0,
+      150,
+      0,
+      0,
+      85,
+      85
+    ]
+  },
+  "combatDefinitions": {
+    "1459": {
+      "hitpoints": 1300,
+      "attackAnim": 1402,
+      "defenceAnim": 1403,
+      "deathAnim": 1404,
+      "attackDelay": 4,
+      "deathDelay": 3,
+      "respawnDelay": 50,
+      "maxHit": 140,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 1
+    },
+    "1460": {
+      "hitpoints": 1300,
+      "attackAnim": 1402,
+      "defenceAnim": 1403,
+      "deathAnim": 1404,
+      "attackDelay": 4,
+      "deathDelay": 3,
+      "respawnDelay": 50,
+      "maxHit": 140,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 1
+    },
+    "1455": {
+      "hitpoints": 1,
+      "attackAnim": -1,
+      "defenceAnim": -1,
+      "deathAnim": -1,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "14212": {
+      "hitpoints": 1,
+      "attackAnim": -1,
+      "defenceAnim": -1,
+      "deathAnim": -1,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12158,
+      "minAmount": 1,
+      "maxAmount": 16,
+      "rate": 0.3
+    },
+    {
+      "itemId": 12159,
+      "minAmount": 1,
+      "maxAmount": 16,
+      "rate": 0.2
+    },
+    {
+      "itemId": 12160,
+      "minAmount": 1,
+      "maxAmount": 16,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12163,
+      "minAmount": 1,
+      "maxAmount": 16,
+      "rate": 0.05
+    }
+  ]
+}

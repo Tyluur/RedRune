@@ -1,0 +1,120 @@
+{
+  "drops": [
+    {
+      "itemId": 5535,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 81.0
+    },
+    {
+      "itemId": 557,
+      "minAmount": 32,
+      "maxAmount": 32,
+      "rate": 88.0
+    },
+    {
+      "itemId": 6033,
+      "minAmount": 6,
+      "maxAmount": 6,
+      "rate": 92.0
+    },
+    {
+      "itemId": 1440,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 81.0
+    },
+    {
+      "itemId": 5104,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 96.0
+    },
+    {
+      "itemId": 2353,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 70.0
+    },
+    {
+      "itemId": 444,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 57.0
+    },
+    {
+      "itemId": 237,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 56.0
+    },
+    {
+      "itemId": 454,
+      "minAmount": 6,
+      "maxAmount": 6,
+      "rate": 74.0
+    },
+    {
+      "itemId": 1784,
+      "minAmount": 4,
+      "maxAmount": 4,
+      "rate": 55.0
+    },
+    {
+      "itemId": 1273,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 68.0
+    },
+    {
+      "itemId": 5311,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 63.0
+    },
+    {
+      "itemId": 5294,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 73.0
+    },
+    {
+      "itemId": 447,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 73.0
+    },
+    {
+      "itemId": 448,
+      "minAmount": 3,
+      "maxAmount": 3,
+      "rate": 34.0
+    },
+    {
+      "itemId": 6035,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 33.0
+    },
+    {
+      "itemId": 1606,
+      "minAmount": 2,
+      "maxAmount": 2,
+      "rate": 48.0
+    },
+    {
+      "itemId": 1442,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 36.0
+    },
+    {
+      "itemId": 1603,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 9.0
+    }
+  ],
+  "bonuses": {},
+  "combatDefinitions": {}
+}

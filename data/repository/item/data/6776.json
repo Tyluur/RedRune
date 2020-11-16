@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    0,
+    -1,
+    7,
+    4,
+    0,
+    2,
+    3,
+    1,
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0
+  ],
+  "examine": "Empty: A pole for putting rats on. With rats: A pole with (one to six) rat(s) on it.",
+  "weight": 2.2
+}

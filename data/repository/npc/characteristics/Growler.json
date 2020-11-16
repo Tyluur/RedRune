@@ -1,0 +1,126 @@
+{
+  "drops": [
+    {
+      "itemId": 526,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 100.0
+    },
+    {
+      "itemId": 618,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 96.0
+    },
+    {
+      "itemId": 808,
+      "minAmount": 97,
+      "maxAmount": 500,
+      "rate": 74.0
+    },
+    {
+      "itemId": 886,
+      "minAmount": 95,
+      "maxAmount": 500,
+      "rate": 60.0
+    },
+    {
+      "itemId": 232,
+      "minAmount": 4,
+      "maxAmount": 4,
+      "rate": 61.0
+    },
+    {
+      "itemId": 207,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 71.0
+    },
+    {
+      "itemId": 7218,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 70.0
+    },
+    {
+      "itemId": 11710,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 48.0
+    },
+    {
+      "itemId": 11712,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 39.0
+    },
+    {
+      "itemId": 11714,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 39.0
+    },
+    {
+      "itemId": 11730,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 4.0
+    }
+  ],
+  "bonuses": {
+    "6250": [
+      0,
+      0,
+      0,
+      125,
+      0,
+      275,
+      0,
+      0,
+      235,
+      200
+    ]
+  },
+  "combatDefinitions": {
+    "6250": {
+      "hitpoints": 1500,
+      "attackAnim": 7019,
+      "defenceAnim": 7017,
+      "deathAnim": 7016,
+      "attackDelay": 4,
+      "deathDelay": 5,
+      "respawnDelay": 150,
+      "maxHit": 160,
+      "attackStyle": 2,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12158,
+      "minAmount": 1,
+      "maxAmount": 13,
+      "rate": 0.3
+    },
+    {
+      "itemId": 12159,
+      "minAmount": 1,
+      "maxAmount": 13,
+      "rate": 0.2
+    },
+    {
+      "itemId": 12160,
+      "minAmount": 1,
+      "maxAmount": 13,
+      "rate": 0.1
+    },
+    {
+      "itemId": 12163,
+      "minAmount": 1,
+      "maxAmount": 13,
+      "rate": 0.05
+    }
+  ]
+}

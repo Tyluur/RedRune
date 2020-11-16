@@ -1,0 +1,210 @@
+{
+  "drops": [
+    {
+      "itemId": 1393,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 51.0
+    },
+    {
+      "itemId": 6568,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 70.0
+    },
+    {
+      "itemId": 6524,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 62.0
+    },
+    {
+      "itemId": 6528,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 43.0
+    },
+    {
+      "itemId": 167,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 68.0
+    },
+    {
+      "itemId": 161,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 65.0
+    },
+    {
+      "itemId": 149,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 43.0
+    },
+    {
+      "itemId": 1623,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 96.0
+    },
+    {
+      "itemId": 1621,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 88.0
+    },
+    {
+      "itemId": 1619,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 56.0
+    },
+    {
+      "itemId": 1617,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 63.0
+    },
+    {
+      "itemId": 379,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 59.0
+    },
+    {
+      "itemId": 7055,
+      "minAmount": 1,
+      "maxAmount": 2,
+      "rate": 67.0
+    },
+    {
+      "itemId": 9194,
+      "minAmount": 1,
+      "maxAmount": 1,
+      "rate": 35.0
+    },
+    {
+      "itemId": 7937,
+      "minAmount": 5,
+      "maxAmount": 5,
+      "rate": 97.0
+    }
+  ],
+  "bonuses": {
+    "2611": [
+      125,
+      0,
+      0,
+      0,
+      0,
+      125,
+      0,
+      0,
+      60,
+      90
+    ],
+    "2614": [
+      125,
+      0,
+      0,
+      0,
+      0,
+      125,
+      0,
+      0,
+      60,
+      90
+    ],
+    "2615": [
+      125,
+      0,
+      0,
+      0,
+      0,
+      125,
+      0,
+      0,
+      60,
+      90
+    ],
+    "2616": [
+      125,
+      0,
+      0,
+      0,
+      0,
+      125,
+      0,
+      0,
+      60,
+      90
+    ]
+  },
+  "combatDefinitions": {
+    "2611": {
+      "hitpoints": 1400,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9288,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2614": {
+      "hitpoints": 1400,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9288,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2615": {
+      "hitpoints": 1400,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9288,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "2616": {
+      "hitpoints": 1400,
+      "attackAnim": 9286,
+      "defenceAnim": 9287,
+      "deathAnim": 9288,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 150,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": [
+    {
+      "itemId": 12168,
+      "minAmount": 1,
+      "maxAmount": 3,
+      "rate": 0.3
+    }
+  ]
+}

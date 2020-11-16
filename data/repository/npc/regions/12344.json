@@ -1,0 +1,146 @@
+[
+  {
+    "npcId": 105,
+    "tile": {
+      "x": 3097,
+      "y": 3591,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 105,
+    "tile": {
+      "x": 3109,
+      "y": 3600,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 105,
+    "tile": {
+      "x": 3091,
+      "y": 3609,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3079,
+      "y": 3618,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3073,
+      "y": 3634,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3088,
+      "y": 3636,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3092,
+      "y": 3637,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3073,
+      "y": 3636,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 1329,
+    "tile": {
+      "x": 3073,
+      "y": 3640,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3109,
+      "y": 3634,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3114,
+      "y": 3628,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3107,
+      "y": 3626,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3118,
+      "y": 3639,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3119,
+      "y": 3627,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3119,
+      "y": 3604,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  },
+  {
+    "npcId": 133,
+    "tile": {
+      "x": 3124,
+      "y": 3586,
+      "plane": 0
+    },
+    "direction": "NORTH"
+  }
+]

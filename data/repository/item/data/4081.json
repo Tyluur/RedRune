@@ -1,0 +1,24 @@
+{
+  "bonuses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    3,
+    3,
+    0,
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3,
+    0
+  ],
+  "examine": "Increases the wearer's strength and accuracy by 15% when fighting the undead.",
+  "weight": 0.6
+}

@@ -1,0 +1,138 @@
+{
+  "drops": [],
+  "bonuses": {
+    "3742": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "3743": [
+      40,
+      40,
+      40,
+      40,
+      40,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "3744": [
+      200,
+      0,
+      0,
+      0,
+      0,
+      200,
+      0,
+      0,
+      200,
+      200
+    ],
+    "3745": [
+      120,
+      120,
+      120,
+      120,
+      120,
+      240,
+      240,
+      240,
+      240,
+      240
+    ],
+    "3746": [
+      160,
+      160,
+      160,
+      160,
+      160,
+      320,
+      320,
+      320,
+      320,
+      320
+    ]
+  },
+  "combatDefinitions": {
+    "3742": {
+      "hitpoints": 1,
+      "attackAnim": 3915,
+      "defenceAnim": 3916,
+      "deathAnim": 3917,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3743": {
+      "hitpoints": 380,
+      "attackAnim": 3915,
+      "defenceAnim": 3916,
+      "deathAnim": 3917,
+      "attackDelay": 4,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 90,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3744": {
+      "hitpoints": 530,
+      "attackAnim": 3915,
+      "defenceAnim": 3916,
+      "deathAnim": 3917,
+      "attackDelay": 4,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 120,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3745": {
+      "hitpoints": 1,
+      "attackAnim": 3915,
+      "defenceAnim": 3916,
+      "deathAnim": 3917,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    },
+    "3746": {
+      "hitpoints": 1,
+      "attackAnim": 3915,
+      "defenceAnim": 3916,
+      "deathAnim": 3917,
+      "attackDelay": 5,
+      "deathDelay": 4,
+      "respawnDelay": 50,
+      "maxHit": 1,
+      "attackStyle": 0,
+      "attackGfx": -1,
+      "attackProjectile": -1,
+      "aggressivenessType": 0
+    }
+  },
+  "charmDrops": []
+}
