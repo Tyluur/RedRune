@@ -4,6 +4,7 @@ plugins {
 }
 
 val junitVersion = "5.6.2"
+val koinVersion = "2.1.5"
 
 allprojects {
     apply(plugin = "kotlin")
@@ -31,7 +32,9 @@ subprojects {
 
         // Kotlin
         implementation(kotlin("reflect"))
-        implementation(group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version = "1.4.2")
+        implementation("org.jetbrains.kotlinx", "kotlinx-coroutines-core", "1.4.2")
+        implementation("org.koin", "koin-logger-slf4j", koinVersion)
+
 
         // Network
         implementation("io.netty:netty-all:4.1.44.Final")
@@ -39,6 +42,14 @@ subprojects {
         // Logging
         implementation("org.slf4j:slf4j-api:1.7.30")
         implementation("ch.qos.logback:logback-classic:1.2.3")
+
+        // https://mvnrepository.com/artifact/org.cryptonode.jncryptor/jncryptor
+        implementation("org.cryptonode.jncryptor:jncryptor:1.2.0")
+
+        // https://mvnrepository.com/artifact/com.zaxxer/HikariCP
+        implementation("com.zaxxer:HikariCP:2.3.2")
+
+        compileOnly("org.projectlombok:lombok:1.16.10")
 
         // Testing
         testImplementation("org.junit.jupiter:junit-jupiter-params:$junitVersion")
