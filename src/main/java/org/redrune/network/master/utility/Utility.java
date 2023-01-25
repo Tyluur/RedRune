@@ -33,7 +33,7 @@ public class Utility {
 	}
 	
 	/**
-	 * Gets all of the classes in a directory
+	 * Gets all the classes in a directory
 	 *
 	 * @param directory
 	 * 		The directory to iterate through
