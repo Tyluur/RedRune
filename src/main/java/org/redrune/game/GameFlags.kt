@@ -1,26 +1,28 @@
-package org.redrune.game;
+package org.redrune.game
 
 /**
  * The flags that can be altered for the game are stored here.
  *
- * @author Tyluur <itstyluur@gmail.com>
+ * @author Tyluur <itstyluur></itstyluur>@gmail.com>
  * @since 5/18/2017
  */
-public class GameFlags {
-	
-	/**
-	 * The id of the world that will be ran
-	 */
-	public static byte worldId;
-	
-	/**
-	 * If the game is running on developer mode (debug)
-	 */
-	public static boolean debugMode;
-	
-	/**
-	 * If sql is enabled
-	 */
-	public static boolean webIntegrated;
-	
+object GameFlags {
+
+    /**
+     * The id of the world that will be ran
+     */
+    @JvmField
+    var worldId: Byte = 0
+
+    /**
+     * If the game is running on developer mode (debug)
+     */
+    @JvmField
+    var debugMode = false
+
+    /**
+     * If sql is enabled
+     */
+    @JvmField
+    var webIntegrated = false
 }
