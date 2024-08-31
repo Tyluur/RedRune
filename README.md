@@ -2,7 +2,7 @@
 
 ---
 
-RedRune Server is a Java-based RSPS (RuneScape Private Server) implementation for RuneScape build 667 with OSHD (Old School HD) graphics.
+RedRune Server is a Java-based RSPS (RuneScape Private Server) implementation for RuneScape build 666.
 <br>This project aims to provide a robust and feature-rich server emulation for RuneScape enthusiasts.
 
 ## Features
